@@ -1,0 +1,97 @@
+/* box-sizing */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  /*-webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);*/
+}
+
+html, body {
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.7em;
+  color: #555;
+  -webkit-font-smoothing: antialiased;
+}
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  font-size: 9.5vw;
+  color: rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+a {
+    color: inherit;
+    text-decoration: none
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* hero header */
+.hero {
+  position: relative;
+  height:600px;
+  background: url('../images/bg.jpg') no-repeat fixed center bottom;
+  background-size: cover;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.hero-title {
+  line-height:600px !important;
+  position: absolute;
+  width: 100%;
+}
+
+/* article section */
+
+.article {
+  max-width: 690px;
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 0 15px;
+}
+
+.article-title {
+  text-align:center;
+  margin: 65px 0;
+}
+
+.article-title .ion-android-arrow-down {
+  position: relative;
+  top: 6px;
+  padding: 0 15px;
+}
+
+.article p {
+  margin-bottom: 40px;
+  text-align: justify;
+}
+
+/* footer secion */
+
+.footer {
+  background: url('../images/bg.jpg') no-repeat fixed center bottom;
+  background-size: cover;
+
+
+  padding: 65px 0 7px 0;
+  text-align: center;
+
+  color: rgba(255, 255, 255, 0.7);
+
+  width: 100%;
+}
