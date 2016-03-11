@@ -1,1 +1,0 @@
-$(window).scroll(function(){var o=$(this).scrollTop();$(".hero-title").css({transform:"translateY( "+o/12+"%)"})});

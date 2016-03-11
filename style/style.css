@@ -5,8 +5,6 @@ html {
 
 *, *:before, *:after {
   box-sizing: inherit;
-  /*-webkit-transform: translate3d(0,0,0);
-  transform: translate3d(0,0,0);*/
 }
 
 html, body {
@@ -19,16 +17,15 @@ body {
   color: #555;
   -webkit-font-smoothing: antialiased;
 }
-h1 {
+
+h1, h2 {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
+}
+h1 {
   font-size: 9.5vw;
   color: rgba(0, 0, 0, 0.7);
   margin: 0;
-}
-h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 100;
 }
 
 a {
@@ -47,7 +44,6 @@ a:hover {
   background-size: cover;
   text-align: center;
   overflow: hidden;
-
 }
 
 .hero-title {
@@ -56,8 +52,8 @@ a:hover {
   width: 100%;
 }
 
-/* article section */
 
+/* article section */
 .article {
   max-width: 690px;
   margin: 0 auto;
@@ -81,12 +77,10 @@ a:hover {
   text-align: justify;
 }
 
-/* footer secion */
-
+/* footer section */
 .footer {
   background: url('../images/bg.jpg') no-repeat fixed center bottom;
   background-size: cover;
-
 
   padding: 65px 0 7px 0;
   text-align: center;
